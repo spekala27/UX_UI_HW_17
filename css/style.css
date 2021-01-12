@@ -1,0 +1,336 @@
+/* Navigation */
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #a59bcc;
+    height: 112px;
+    padding: 24px 72px 24px 72px;
+}
+
+#navBar img {
+    position: absolute;
+    left: 72px;
+    width: 208px;
+}
+
+#navigation {
+    display: flex;
+    cursor: pointer;
+}
+
+#navigation p {
+    font-family: Montserrat;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+
+#click {
+    display: flex;
+    align-items: center;
+    right: 72px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#letsChat {
+    border: 2px solid white;
+    border-radius: 16px;
+    height: 64px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#letsChat p {
+    font-family: Montserrat;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+/* Intro */
+
+#intro {
+    display: flex;
+    height: 608px;
+    background-color: #a59bcc;
+    align-content: center;
+    justify-content: center;
+}
+
+#adjectives {
+    height: 368px;
+    margin-top: 120px;
+}
+
+#adjectives h1 {
+    font-family: Montserrat;
+    font-size: 64px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#adjectives h2 {
+    font-family: Montserrat;
+    font-size: 64px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#topRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#bottomRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* About */
+
+#about {
+    display: flex;
+    align-content: center;
+    height: 528px;
+}
+
+#aboutMe {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 1247px;
+    margin-top: 72px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 72px;
+}
+
+#aboutMe h1 {
+    font-family: Montserrat;
+    font-size: 40px;
+    color: #46454C;
+}
+
+#aboutMe h1 strong{
+    color: #a59bcc;
+}
+
+.aboutDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutDetails h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    color: #46454C;
+    justify-content: flex-start;
+}
+
+.aboutDetails p {
+    font-family: Raleway;
+    font-size: 24px;
+    color: #46454C;
+    width: 840px;
+}
+
+#learnMore {
+    font-family: Montserrat;
+    color: #4AAEC5;
+    font-style: italic;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.arrow {
+    border: solid #4AAEC5;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+/* Process */
+
+#process {
+    background-image: url(../images/Process_BackgroundPhoto.png);
+    height: 368px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#myProcess {
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    margin-top: 64px;
+}
+
+#subHeaderWhite {
+    font-family: Montserrat;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+#button {
+    border: 2px solid #4A419A;
+    background-color: white;
+    border-radius: 16px;
+    height: 64px;
+    width: 264px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   
+}
+
+#button p {
+    font-family: Montserrat;
+    font-size: 24px;
+    color: #4A419A;
+    text-align: center;
+}
+
+/* Case Studies */
+
+.subHeader {
+    font-family: Montserrat;
+    font-size: 32px;
+    color: #46454C;
+    text-align: center;
+    margin-top: 72px;
+}
+
+#work {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 72px;
+    display: grid;
+    grid-template-rows: 600px 600px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "trippie givingForGood tradesies"
+    "calFire pillPod istePersonas"
+    ;
+  }
+
+.caseStudies {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 56px 16px 56px 16px;
+    cursor: pointer;
+    display: grid;
+    justify-content: left;
+}
+
+.caseStudies img {
+    height: 366px;
+    width: 520px;
+}
+
+.caseStudies h2 {
+    font-family: Montserrat;
+    color: #46454C;
+    font-size: 32px;
+}
+
+.caseStudies p {
+    font-family: Raleway;
+    color: #46454C;
+    font-size: 24px;
+}
+
+/* Experties */
+
+#expertise {
+    background-color: #e8e9f4
+}
+
+#subHeader {
+    font-family: Montserrat;
+    font-size: 32px;
+    color: #46454C;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.fourSkills {
+    height: 672px;
+    display: grid;
+    align-content: space-around;
+    grid-template-rows: 184px 184px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "designResearch uxDesign"
+    "valuePropostionDesign uiDesign";
+}
+
+.skills {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 184px 554px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "img text";
+}
+
+.skills img {
+    height: 184px;
+}
+
+.skills h2 {
+    font-family: Montserrat;
+    color: #46454C;
+    font-size: 32px;
+}
+
+.skills p {
+    font-family: Raleway;
+    color: #46454C;
+    font-size: 24px;
+}
+
+.text {
+    align-items: left;
+    padding-left: 56px;
+}
+
+/* Let's Chat */
+
+#chat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 192px;
+}
+
+#chat h1 {
+    font-family: Montserrat;
+    color: #46454C;
+    font-size: 32px; 
+}
